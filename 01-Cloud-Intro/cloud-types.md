@@ -1,4 +1,4 @@
-# Cloud Deployment Models Types of Cloud
+# Cloud Deployment Models  &  Types of Cloud
 
 Cloud deployment defines **how and where** your cloud infrastructure is hosted.  
 Each type has different ownership, scale, and use cases.
