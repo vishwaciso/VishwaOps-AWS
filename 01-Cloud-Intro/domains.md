@@ -23,14 +23,6 @@
   - [IoT](#iot)
   - [FinOps](#finops)
   - [Development-&-Testing](#development--testing)
-- [Study Plans (12/24 weeks)](#study-plans)
-- [Assessment Rubric & Grading](#assessment-rubric--grading)
-- [Interview Prep & Sample Questions](#interview-prep--sample-questions)
-- [Resume & Portfolio Tips](#resume--portfolio-tips)
-- [Progress Tracker (fillable)](#progress-tracker)
-- [Appendix: Cheat-sheets & Commands](#appendix-cheat-sheets--commands)
-- [License & Contact](#license--contact)
-
 ---
 
 ## 📘 Overview & How to Use
