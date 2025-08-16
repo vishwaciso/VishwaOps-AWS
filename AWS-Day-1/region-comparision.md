@@ -1,17 +1,14 @@
 # 🌐 Vishwa's Tech Docs - AWS Cloud
 
-![AWS Cloud Badge](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws)
-![Infrastructure Badge](https://img.shields.io/badge/Infrastructure-Global-blue?style=for-the-badge)
-![Education Badge](https://img.shields.io/badge/Learning-Tech-green?style=for-the-badge)
-
 ## Mastering AWS Geography — Regions, Zones & Edge Magic
 
 ---
 
 <details>
-<summary>🌍 <b>1. Region — AWS Country</b> ![Region Badge](https://img.shields.io/badge/Region-33-red?style=flat-square)</summary>
+<summary>🌍 <b>1. Region — AWS Country</b></summary>
 
 **Definition:** A large geographic area that contains multiple isolated Availability Zones (AZs).  
+**Purpose:** Choose a Region close to your users for low latency 🕒, data compliance ⚖️, and faster access ⚡.
 
 **Examples with Codes:**
 - [🇮🇳 Asia Pacific (Mumbai) — `ap-south-1`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
@@ -26,7 +23,7 @@
 ---
 
 <details>
-<summary>🏙️ <b>2. Availability Zone (AZ) — AWS State</b> ![AZ Badge](https://img.shields.io/badge/AZ-103+_AZs-blue?style=flat-square)</summary>
+<summary>🏙️ <b>2. Availability Zone (AZ) — AWS State</b></summary>
 
 **Definition:** Physically separate data centers inside a Region, connected by private high-speed fiber.  
 **Purpose:** Use multiple AZs so if one fails, others keep your app running (fault tolerance 🛡️).
@@ -43,7 +40,7 @@
 ---
 
 <details>
-<summary>🏢 <b>3. Local Zone — AWS in Your City</b> ![Local Zone Badge](https://img.shields.io/badge/Local_Zone-35+_Zones-green?style=flat-square)</summary>
+<summary>🏢 <b>3. Local Zone — AWS in Your City</b></summary>
 
 **Definition:** AWS infrastructure inside a city for ultra-low latency 🕒 to nearby users.  
 **Purpose:** Run workloads like gaming 🎮, video rendering 🎬, and live streaming 📺 that need fast response.
@@ -60,7 +57,7 @@
 ---
 
 <details>
-<summary>📡 <b>4. Wavelength Zone — AWS in 5G Towers</b> ![Wavelength Badge](https://img.shields.io/badge/Wavelength-15+_Zones-purple?style=flat-square)</summary>
+<summary>📡 <b>4. Wavelength Zone — AWS in 5G Towers</b></summary>
 
 **Definition:** AWS infrastructure embedded inside telecom 5G networks 📶 for single-digit millisecond latency 🕒.  
 **Purpose:** Run mobile gaming 🎮, IoT devices 📡, and AR/VR apps 🕶️ directly inside a 5G network.
@@ -77,7 +74,7 @@
 ---
 
 <details>
-<summary>🚚 <b>5. Edge Location — AWS at the Doorstep</b> ![Edge Badge](https://img.shields.io/badge/Edge-450+_Locations-pink?style=flat-square)</summary>
+<summary>🚚 <b>5. Edge Location — AWS at the Doorstep</b></summary>
 
 **Definition:** Small AWS sites used by Amazon CloudFront to cache content near users 📨.  
 **Purpose:** Reduce latency ⚡, speed up content delivery 📦, and take pressure off main servers 🖥️.
@@ -102,7 +99,7 @@ This means:
 ---
 
 <details>
-<summary>📊 <b>AWS Geography Quick Comparison (Colored, Examples, Clickable Links, Badges & Icons)</b></summary>
+<summary>📊 <b>AWS Geography Quick Comparison (Examples, Icons, Links)</b></summary>
 
 <table>
   <thead>
@@ -117,7 +114,7 @@ This means:
   </thead>
   <tbody>
     <tr style="background-color:#FFEDD5;">
-      <td>🌍 Region ![Region Badge](https://img.shields.io/badge/Region-33-red?style=flat-square)</td>
+      <td>🌍 Region</td>
       <td>Large geographic area containing multiple AZs</td>
       <td>[🇮🇳 `ap-south-1`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/), [🇺🇸 `us-east-1`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/), [🇩🇪 `eu-central-1`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)</td>
       <td>Low latency 🕒 & compliance ⚖️</td>
@@ -125,14 +122,15 @@ This means:
       <td>🌎 33 Regions</td>
     </tr>
     <tr style="background-color:#E0F2FE;">
-      <td>🏙️ AZ ![AZ Badge](https://img.shields.io/badge/AZ-103+_AZs-blue?style=flat-square)</td>
+      <td>🏙️ AZ</td>
+      <td>Separate data centers inside a Region</td>
       <td>[🇮🇳 `ap-south-1a`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/), [🇺🇸 `us-east-1b`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/), [🇸🇬 `ap-southeast-1a`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)</td>
       <td>Fault tolerance 🛡️ & high availability</td>
       <td>State</td>
       <td>🏢 103+ AZs</td>
     </tr>
     <tr style="background-color:#DCFCE7;">
-      <td>🏢 Local Zone ![Local Zone Badge](https://img.shields.io/badge/Local_Zone-35+_Zones-green?style=flat-square)</td>
+      <td>🏢 Local Zone</td>
       <td>AWS infra inside a city</td>
       <td>[🇮🇳 `ap-south-1-mum-1a`](https://aws.amazon.com/about-aws/global-infrastructure/local/), [🇺🇸 `us-west-2-lax-1a`](https://aws.amazon.com/about-aws/global-infrastructure/local/), [🇮🇳 `ap-south-1-ccu-1a`](https://aws.amazon.com/about-aws/global-infrastructure/local/)</td>
       <td>Ultra-low latency 🕒 for gaming 🎮 & streaming 📺</td>
@@ -140,7 +138,7 @@ This means:
       <td>🏙️ 35+ Local Zones</td>
     </tr>
     <tr style="background-color:#FFF7CD;">
-      <td>📡 Wavelength Zone ![Wavelength Badge](https://img.shields.io/badge/Wavelength-15+_Zones-purple?style=flat-square)</td>
+      <td>📡 Wavelength Zone</td>
       <td>AWS infra inside 5G networks 📶</td>
       <td>[🇮🇳 `ap-south-1-wl1-del-wlz-1`](https://aws.amazon.com/about-aws/global-infrastructure/wavelength/), [🇯🇵 `ap-northeast-1-wl1-tok-wlz-1`](https://aws.amazon.com/about-aws/global-infrastructure/wavelength/), [🇺🇸 `us-east-1-wl1-nyc-wlz-1`](https://aws.amazon.com/about-aws/global-infrastructure/wavelength/)</td>
       <td>Mobile gaming 🎮, IoT 📡, AR/VR 🕶️</td>
@@ -148,7 +146,7 @@ This means:
       <td>📶 15+ Wavelength Zones</td>
     </tr>
     <tr style="background-color:#FCE7F3;">
-      <td>🚚 Edge Location ![Edge Badge](https://img.shields.io/badge/Edge-450+_Locations-pink?style=flat-square)</td>
+      <td>🚚 Edge Location</td>
       <td>Small AWS site near users 📨</td>
       <td>[🇮🇳 Hyderabad (`HYD`)](https://aws.amazon.com/cloudfront/features/#Global_Network), [🇦🇺 Sydney (`SYD`)](https://aws.amazon.com/cloudfront/features/#Global_Network), [🇬🇧 London (`LHR`)](https://aws.amazon.com/cloudfront/features/#Global_Network)</td>
       <td>Cache content via CloudFront CDN 📦</td>
