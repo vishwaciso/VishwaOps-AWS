@@ -7,6 +7,8 @@
 ## 🌩️ What is Cloud?
 Cloud computing is the **delivery of IT resources (compute, storage, networking, databases, analytics, etc.) over the internet** with **pay-as-you-go pricing**.
 
+## 🌩️ Cloud is a collection of domains !!
+
 ### Why?
 - No need to buy and maintain expensive hardware.
 - Scale up/down based on demand.
@@ -28,7 +30,7 @@ Cloud computing is the **delivery of IT resources (compute, storage, networking,
 
 ---
 
-## 🏗️ Service Models
+## 🏗️ Cloud Service Models
 Cloud services are offered in multiple layers:
 
 ### 1. Infrastructure as a Service (IaaS)
@@ -134,5 +136,6 @@ Cloud security is **shared** between **provider** and **customer**:
 - Learning curve for teams.
 
 ---
+
 
 
