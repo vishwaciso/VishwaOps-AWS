@@ -1,11 +1,3 @@
-
-<p align="center">
-  <img src="./37f49586-ab5d-499f-8943-06cd79c8216e.jpeg" width="180" alt="VishwaOps Logo"/>
-</p>
-
-
-
-
 <div align="center">
 
 #  VishwaOps-AWS
