@@ -1,9 +1,7 @@
 
-
-![WhatsApp Image 2025-08-16 at 15 17 10](https://github.com/user-attachments/assets/f63f9e67-dd1d-4d3e-91da-5a0146817bf1)
-
-
-
+<p align="center">
+  <img src="./37f49586-ab5d-499f-8943-06cd79c8216e.jpeg" width="180" alt="VishwaOps Logo"/>
+</p>
 
 
 
