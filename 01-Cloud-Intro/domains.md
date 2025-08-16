@@ -1,9 +1,5 @@
 <!-- README.md: Ultimate Cloud Career Roadmap (Full, single-file) -->
 
-[![Status](https://img.shields.io/badge/status-complete-brightgreen)](https://github.com/)
-[![Domains](https://img.shields.io/badge/domains-15-blue)](https://github.com/)
-[![Difficulty](https://img.shields.io/badge/difficulty-beginners%20to%20expert-orange)](https://github.com/)
-[![License](https://img.shields.io/badge/license-MIT-blueviolet)](LICENSE)
 
 # ☁️ Ultimate Cloud Career Roadmap — 15 Domains, Step-by-step, With Marks
 **All-in-one guide:** fundamentals (on-prem) → cloud equivalents → career path → certifications → projects & marks → interview prep → progress tracker.
@@ -11,8 +7,6 @@
 ---
 
 ## 🔥 Quick links (clickable index)
-- [Overview & How to Use](#overview--how-to-use)
-- [Marks & Weightage](#marks--weightage)
 - Domains (click to jump)
   - [Networking](#networking)
   - [Storage](#storage)
