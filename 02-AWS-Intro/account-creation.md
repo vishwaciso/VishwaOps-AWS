@@ -1,7 +1,8 @@
 # ☁️ Cloud Free Tier Comparison (AWS vs Azure vs GCP)
 
 > Updated: August 2025  
-> A quick reference on how the free tiers work across the 3 big cloud providers.
+> A quick reference on how the free tiers work across the 3 big cloud providers,  
+> and what you need to create your accounts.
 
 ---
 
@@ -10,7 +11,7 @@
 When starting with cloud platforms, each provider offers a "Free Tier" or "Free Plan."  
 But the **duration, credits, and included services** differ between **AWS, Azure, and Google Cloud Platform (GCP)**.
 
-This guide compares them side-by-side.
+This guide compares them side-by-side and explains how to create your accounts.
 
 ---
 
@@ -22,7 +23,7 @@ This guide compares them side-by-side.
 
 - **Accounts created on/after July 15, 2025:**  
   - ✅ **6 months Free Plan** OR until credits are used.  
-  - 🎁 **$100 signup credits** + **up to $100 earned credits** (completing tasks).  
+  - 🎁 **$100 signup credits** + **up to $100 earned credits** (for completing tasks).  
   - ⏳ After expiry → account closed, 90-day data retention.  
 
 **Always Free Examples (with usage limits):**  
@@ -30,7 +31,18 @@ This guide compares them side-by-side.
 - DynamoDB (25 GB storage)  
 - S3 (5 GB storage)
 
-**Outcome:** Great for beginners & labs, but stricter than before.
+📌 **Create Account:** [AWS Signup Console](https://portal.aws.amazon.com/billing/signup)  
+
+### 📝 What You Need for AWS Account
+1. **Email ID** (not previously used for AWS).  
+2. **Debit/Credit Card** (Visa/Mastercard/RuPay International works).  
+   - 💡 Prepaid cards often fail.  
+   - International cards preferred, but Indian debit cards (HDFC, ICICI, SBI Global) usually work.  
+3. **Phone Number** for OTP verification.  
+4. **Billing Address** (must match card address).  
+5. **PAN/KYC** – not required at signup, but may be needed later.  
+
+👉 After signup, AWS will charge a **temporary $1 (₹2–₹5 INR)** for card verification, which is refunded.  
 
 ---
 
@@ -44,9 +56,18 @@ This guide compares them side-by-side.
 **Examples:**  
 - 750 hours of Linux/Windows VM (B1S) for 12 months.  
 - 5 GB Azure Blob Storage (Always Free).  
-- Azure Functions: 1M requests/month (Always Free).
+- Azure Functions: 1M requests/month (Always Free).  
 
-**Outcome:** Best for testing Windows workloads & .NET integrations.
+📌 **Create Account:** [Azure Signup Console](https://azure.microsoft.com/en-us/free)  
+
+### 📝 What You Need for Azure Account
+1. **Microsoft Account** (Outlook/Hotmail/Gmail works).  
+2. **Credit/Debit Card** for verification.  
+   - Only **international debit/credit cards** are accepted in most regions.  
+3. **Phone Number** for OTP.  
+4. **Billing Address**.  
+
+💡 Azure gives **₹14,500 INR (~$200 USD)** credits instantly after verification.
 
 ---
 
@@ -60,9 +81,18 @@ This guide compares them side-by-side.
 - 1 f1-micro VM per month (US regions only).  
 - 5 GB storage on Google Cloud Storage.  
 - 2M Cloud Functions invocations/month.  
-- 1 GB of BigQuery storage + 1 TB queries/month.
+- 1 GB of BigQuery storage + 1 TB queries/month.  
 
-**Outcome:** Best for experimenting with serverless, ML, and data analytics.
+📌 **Create Account:** [GCP Signup Console](https://cloud.google.com/free)  
+
+### 📝 What You Need for GCP Account
+1. **Google Account** (Gmail).  
+2. **Credit/Debit Card** (International cards required in many countries).  
+   - Google does **not charge upfront** but may put a small temporary hold (₹50 INR).  
+3. **Phone Number**.  
+4. **Billing Address**.  
+
+💡 GCP is beginner-friendly → you won’t be charged unless you **manually upgrade to paid**.
 
 ---
 
@@ -75,6 +105,7 @@ This guide compares them side-by-side.
 | **Always Free**         | Yes (Lambda, S3, DynamoDB, etc.)    | Yes (VMs, Blob Storage, Functions)| Yes (VM, Cloud Storage, Functions)   |
 | **Post Expiry**         | Account closed unless upgraded      | Must upgrade → Pay-As-You-Go      | Must upgrade → Pay-As-You-Go         |
 | **Best Use Case**       | Beginner AWS labs & infra basics    | Windows/.NET workloads            | Serverless, ML, Big Data             |
+| **Card Required?**      | Yes (Debit/Credit, ₹2 hold)         | Yes (Debit/Credit, ₹2 hold)       | Yes (Debit/Credit, ₹50 hold)         |
 
 ---
 
@@ -83,6 +114,7 @@ This guide compares them side-by-side.
 - **AWS**: Now stricter → only **6 months for new accounts**, but offers task-based credits.  
 - **Azure**: Best if you want Windows or hybrid cloud workloads.  
 - **GCP**: Very generous “Always Free” services (great for data/ML).  
+- **All three require Debit/Credit card + phone number for signup.**  
 
 ---
 
