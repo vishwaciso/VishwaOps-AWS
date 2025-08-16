@@ -131,3 +131,8 @@ Compliance built-in | Governance can be tricky
 
 ---
 
+<img width="1024" height="1536" alt="ChatGPT Image Aug 16, 2025, 11_39_36 PM" src="https://github.com/user-attachments/assets/4822fd43-65fc-427e-8ab3-952d559a28a0" />
+
+
+
+
