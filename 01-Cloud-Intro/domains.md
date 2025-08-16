@@ -35,22 +35,6 @@
 
 ---
 
-## 🧾 Marks & Weightage (how scoring works)
-Two options depending on how granular you want grading:
-
-**Option A — Module-based (recommended for thorough learning)**  
-- Each domain = **100 marks**.  
-  - Theory / MCQ: 40  
-  - Hands-on Labs: 35  
-  - Project / Capstone: 15  
-  - Interview / Soft skills: 10  
-- Total for 15 domains = **1500 marks** (normalize to 100 as needed).
-
-**Option B — Course-normalized (single 100 score)**  
-- Assign weights per domain (edit to match your job goals). Example weights (sum = 100):
-  - Networking 7, Storage 7, Compute 8, OS 6, Middleware 5, Databases 10, Security 12, IAM 8, DevOps 12, Monitoring 5, Backup/DR 4, AI/ML 6, IoT 4, FinOps 6, DevTest 5
-
----
 
 ---
 
