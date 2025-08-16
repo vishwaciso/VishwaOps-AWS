@@ -88,7 +88,6 @@
 ---
 
 ### 📦 **CloudFront CDN & Why Edge Locations Matter**
-When you enable **Amazon CloudFront CDN**, your content (HTML, images, videos, scripts) is cached in **Edge Locations**.  
 This means:
 - Faster loading for users (content served from the nearest Edge)
 - Lower bandwidth costs for your origin server
@@ -98,17 +97,66 @@ This means:
 
 ---
 
-## 📊 AWS Geography Quick Comparison (Updated with Footnote)
+<details>
+<summary>📊 <b>AWS Geography Quick Comparison (Colored & Examples)</b></summary>
 
-| AWS Component       | What It Represents | Example Codes | Purpose | Analogy | Total Count (2025) |
-|---------------------|------------------|---------------|---------|---------|------------------|
-| **Region** 🌍 | Large geographic area containing multiple AZs | `ap-south-1` (Mumbai), `us-east-1` (Virginia) | Choose close to users for low latency & compliance | Country | 33 Regions |
-| **Availability Zone** 🏙️ | Separate data centers inside a Region | `ap-south-1a`, `us-east-1b` | High availability & fault tolerance | State | 103+ AZs |
-| **Local Zone** 🏢 | AWS infra inside a city | `ap-south-1-mum-1a` | Ultra-low latency workloads (gaming, streaming) | City | 35+ Local Zones |
-| **Wavelength Zone** 📡 | AWS infra inside 5G networks | `ap-south-1-wl1-del-wlz-1` | Mobile gaming, IoT, AR/VR in 5G | Mobile tower | 15+ Wavelength Zones |
-| **Edge Location** 🚚 | Small AWS site near users | Hyderabad (HYD), Sydney (SYD) | Cache content via CloudFront CDN | Courier hub | 450+ Edge Locations |
+<table>
+  <thead>
+    <tr>
+      <th>AWS Component</th>
+      <th>What It Represents</th>
+      <th>Example Codes</th>
+      <th>Purpose</th>
+      <th>Analogy</th>
+      <th>Total Count (2025)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:#FFEDD5;">
+      <td>Large geographic area containing multiple AZs</td>
+      <td>`ap-south-1` (Mumbai), `us-east-1` (Virginia), `eu-central-1` (Frankfurt)</td>
+      <td>Choose close to users for low latency & compliance</td>
+      <td>Country</td>
+      <td>🌎 33 Regions</td>
+    </tr>
+    <tr style="background-color:#E0F2FE;">
+      <td>🏙️ Availability Zone</td>
+      <td>Separate data centers inside a Region</td>
+      <td>`ap-south-1a`, `us-east-1b`, `ap-southeast-1a`</td>
+      <td>High availability & fault tolerance</td>
+      <td>State</td>
+      <td>🏢 103+ AZs</td>
+    </tr>
+    <tr style="background-color:#DCFCE7;">
+      <td>🏢 Local Zone</td>
+      <td>AWS infra inside a city</td>
+      <td>`ap-south-1-mum-1a`, `us-west-2-lax-1a`, `ap-south-1-ccu-1a`</td>
+      <td>Ultra-low latency workloads (gaming, streaming)</td>
+      <td>City</td>
+      <td>🏙️ 35+ Local Zones</td>
+    </tr>
+    <tr style="background-color:#FFF7CD;">
+      <td>📡 Wavelength Zone</td>
+      <td>AWS infra inside 5G networks</td>
+      <td>`ap-south-1-wl1-del-wlz-1`, `ap-northeast-1-wl1-tok-wlz-1`, `us-east-1-wl1-nyc-wlz-1`</td>
+      <td>Mobile gaming, IoT, AR/VR in 5G</td>
+      <td>Mobile tower</td>
+      <td>📶 15+ Wavelength Zones</td>
+    </tr>
+    <tr style="background-color:#FCE7F3;">
+      <td>🚚 Edge Location</td>
+      <td>Small AWS site near users</td>
+      <td>Hyderabad (`HYD`), Sydney (`SYD`), London (`LHR`)</td>
+      <td>Cache content via CloudFront CDN</td>
+      <td>Courier hub</td>
+      <td>🚚 450+ Edge Locations</td>
+    </tr>
+  </tbody>
+</table>
 
 *⚠️ **Note:** AWS is constantly expanding. Counts for Regions, AZs, Local Zones, Wavelength Zones, and Edge Locations may increase over time. Always refer to the [official AWS global infrastructure page](https://aws.amazon.com/about-aws/global-infrastructure/) for the latest numbers.*
+
+</details>
 
 ---
 
