@@ -29,7 +29,7 @@ Cloud computing is the **delivery of IT resources (compute, storage, networking,
 ---
 
 ## 🏗️ Service Models
-Three major models:
+Cloud services are offered in multiple layers:
 
 ### 1. Infrastructure as a Service (IaaS)
 - Raw compute, storage, networking resources.
@@ -51,6 +51,27 @@ Three major models:
 - **Example:** Gmail, Zoom, Salesforce.  
 **Use Case:** Businesses wanting ready-to-use software.  
 **Outcome:** No infra headaches, pay per user or subscription.
+
+### 4. Container as a Service (CaaS)
+- Container management & orchestration provided as a service.
+- Provider manages container runtime, orchestration (Kubernetes, Docker Swarm).
+- **Example:** AWS EKS, Google Kubernetes Engine (GKE), Azure AKS.  
+**Use Case:** Microservices-based applications, containerized workloads.  
+**Outcome:** Simplified container deployment, scaling, and management.
+
+### 5. Function / Serverless as a Service (FaaS)
+- Serverless execution model: just upload code, runs on demand.
+- No server management, fully event-driven.
+- **Example:** AWS Lambda, Azure Functions, Google Cloud Functions.  
+**Use Case:** Event-driven apps, APIs, scheduled jobs.  
+**Outcome:** Pay only per execution, no infra management.
+
+### 6. Network as a Service (NaaS)
+- Provides networking services like VPN, bandwidth, firewalls, load balancing.
+- Delivered via subscription or pay-per-use.
+- **Example:** AWS VPC, Cloudflare, Akamai.  
+**Use Case:** Secure connectivity, CDN, network isolation.  
+**Outcome:** Simplifies networking without owning hardware.
 
 ---
 
@@ -75,6 +96,11 @@ Different ways cloud can be deployed:
   *Example: AWS for storage, Azure for AI services.*  
   ✅ Avoid vendor lock-in.  
   ❌ Complexity in management.  
+
+- **Community Cloud** → Shared infrastructure for organizations with common needs (e.g., government, healthcare, education).  
+  *Example: Government agencies in the EU sharing a compliance-focused cloud.*  
+  ✅ Cost shared, compliance maintained.  
+  ❌ Limited to community scope.  
 
 ---
 
@@ -116,88 +142,3 @@ Put your screenshots in this folder and embed like this:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/your-image-id" width="800"/>
 </p>
-🎯 Objectives
- Understand core cloud concepts.
-
- Learn models: IaaS, PaaS, SaaS.
-
- Explore deployment models.
-
- Understand shared responsibility.
-
-🛠️ Prerequisites
-Curiosity + internet connection.
-
-AWS Free Tier account (with IAM + MFA enabled).
-
-Basic knowledge of IT (servers, networking).
-
-📝 Notes
-Cloud ≠ magic; it’s still servers, but managed by provider.
-
-Always calculate cost before deploying.
-
-Security is a shared responsibility.
-
-🧪 Lab
-Lab 1: Sign up for AWS Free Tier
-Go to https://aws.amazon.com/free.
-
-Create an account (don’t use root user daily).
-
-Set up MFA for security.
-
-Outcome: You now have a secure AWS Free Tier account.
-
-💻 Commands / Snippets
-bash
-Copy
-Edit
-# Check AWS CLI version
-aws --version
-
-# Configure AWS CLI with IAM user credentials
-aws configure
-❓ Recap Questions
-What are the differences between IaaS, PaaS, SaaS?
-
-Explain shared responsibility with an example.
-
-When would you choose Hybrid Cloud over Public Cloud?
-
-🏡 Homework
-Research 3 SaaS apps you use daily.
-
-Create a table showing → Service Model, Who manages what, Why you use it.
-
-📚 References
-AWS What is Cloud?
-
-Shared Responsibility Model
-
-NIST Cloud Definition
-
-yaml
-Copy
-Edit
-
----
-
-✨ This version now has:
-- **Detailed explanations** (what/why/when/where/how/outcome).  
-- **Examples & real-world use cases**.  
-- **Labs + commands** to try hands-on.  
-- **Recap & homework** to reinforce learning.  
-
----
-
-👉 Do you want me to expand the same way for **02-AWS-Intro** and **03-Virtualization-Intro**, so your foundation docs are fully ready before Day-01 starts?
-
-
-
-
-
-
-
-
-Ask ChatGPT
