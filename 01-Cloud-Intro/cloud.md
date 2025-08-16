@@ -135,10 +135,4 @@ Cloud security is **shared** between **provider** and **customer**:
 
 ---
 
-## 📸 Screenshots
-Put your screenshots in this folder and embed like this:
 
-```html
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/your-image-id" width="800"/>
-</p>
